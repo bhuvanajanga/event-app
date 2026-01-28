@@ -1,0 +1,88 @@
+/* Page background */
+.events-container {
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+/* Page title */
+.events-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #1e293b;
+}
+
+/* Grid layout */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* Event card */
+.event-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Event title */
+.event-card h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* Event text */
+.event-card p {
+  color: #475569;
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* Description */
+.desc {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Register button */
+.register-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover */
+.register-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Registered state */
+.registered-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: not-allowed;
+}
